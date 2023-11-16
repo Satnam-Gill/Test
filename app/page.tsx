@@ -10,7 +10,7 @@ export default function Home() {
   // console.log(arrayItem["New York"]);
   const stateCities:any = jsonData[0]["Tennessee"];
 stateCities.forEach((cityData: any) => {
-  console.log(cityData.city);
+  // console.log(cityData.city);
   // console.log(cityData.population)
   // console.log(cityData.zips);
 });

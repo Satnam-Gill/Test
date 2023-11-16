@@ -29,8 +29,9 @@ const Navbar2 = () => {
     },[])
   
   return (
-    <div style={{backgroundColor:`${color}`}} className=' fixed top-0  left-0   z-10 ease-in duration-500 w-full  '>
-        <div className="flex justify-between px-10 items-center w-full max-w-[1280px] m-auto text-white p-4  ">
+    <div className=' '>
+      <div style={{backgroundColor:`${color}`}} className=' text-2xl fixed left-0   z-10 ease-in duration-500 w-full  '>
+        <div className="flex justify-between px-10 items-center w-full max-w-[1280px] m-auto text-white p-4 ">
             <div style={{color:`${textcolor}`}} className="text-orange-500 font-bold text-3xl ">LOGO </div>
             <ul style={{color:`${textcolor}`}}className='hidden sm:flex gap-3 '>
                 <Link href="/">
@@ -66,7 +67,9 @@ const Navbar2 = () => {
             </ul>
             </div>
         </div>
+    </div>   
     </div>
+   
   )
 }
 

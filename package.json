@@ -10,7 +10,6 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@next/font": "^13.5.4",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
