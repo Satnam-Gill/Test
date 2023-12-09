@@ -7,3 +7,7 @@ html{
   /* font-family: 'DM Sans', sans-serif; */
   font-family: 'Young Serif', serif;
 }
+
+.slick-slider div{
+  margin: 10px 10px;
+}

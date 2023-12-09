@@ -6,6 +6,7 @@ import Header from "./(TEST)/Components/Header";
 import NavBar from "./(TEST)/Components/Navbar";
 import { Navbar1 } from "./(TEST)/Components/Navabar1";
 import Navbar2 from "./(TEST)/Components/Navbar2";
+import Footer from "./(TEST)/Components/Footer";
 
 const inter = DM_Sans({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         {/* <Navbar1/>
         <NavBar /> */}
         {children}
+        <Footer/>
       </body>
     </html>
   );

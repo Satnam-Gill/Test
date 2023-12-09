@@ -8,18 +8,37 @@ import Navbar2 from "../(TEST)/Components/Navbar2";
 import Slider from "../component/Slider";
 import Page from "../[userId]/page";
 import State from "../component/output"
+import Neighborhood from "@/app/component/Neighborhood"
+import SliderNew from "../component/SliderNew";
 
 
 
 const page = () => {
-   const getdatalist = State();
-  const locations =  getdatalist;
-  console.log(locations)
+const data= Neighborhood();
+// const Citiesab = Cityab;
+// const Hub = Cityab.forEach(element => {
+//   // console.log(element.Cities_Abb)
+//   return element.Neghborhoods.split(",").forEach(element => {
+//     //  console.log(element)
+//    });
+//   });
+  
+   
+  // console.log(Hub)
+  //  const getdatalist = State();
+  // const locations =  getdatalist;
+  // // console.log(locations)
 
   return (
     <div className=" bg-[#ed1c24]">
       <div className=" w-full border"><Navbar2/></div>
-      <div className=" w-full border"></div>
+      <div className=" w-full border h-screen"></div>
+      {/* {data.map(item => (
+        <div key={item.ID}>
+          <p>{item.Cities_Abb}</p>
+        </div>
+      ))} */}
+<SliderNew/>
     {/* {
       locations.map((index: { State: any }) => {
         return (
@@ -29,8 +48,6 @@ const page = () => {
         )
       })
     } */}
-
-
       <div className="mx-20  flex items-center justify-between  ">
         <div className="1">
           <img

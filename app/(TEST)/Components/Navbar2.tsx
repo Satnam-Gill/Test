@@ -18,7 +18,7 @@ const Navbar2 = () => {
                 setTextColor('#ffffff');
             }else{
                 setColor('transparent');
-                setTextColor('#FF6000');
+                setTextColor('#ff6000');
             }
             
         }
@@ -32,19 +32,19 @@ const Navbar2 = () => {
     <div className=' '>
       <div style={{backgroundColor:`${color}`}} className=' text-2xl fixed left-0   z-10 ease-in duration-500 w-full  '>
         <div className="flex justify-between px-10 items-center w-full max-w-[1280px] m-auto text-white p-4 ">
-            <div style={{color:`${textcolor}`}} className="text-orange-500 font-bold text-3xl ">LOGO </div>
-            <ul style={{color:`${textcolor}`}}className='hidden sm:flex gap-3 '>
+            <div style={{color:`${textcolor} `}} className="text-orange-500 hover:text-orange-600 font-bold text-3xl ">LOGO </div>
+            <ul  className={`text-${textcolor} hidden sm:flex gap-3 `}>
                 <Link href="/">
-                    <li>Home</li>
+                    <li className='hover:text-orange-500'>Home</li>
                 </Link>
                 <Link href="/">
-                    <li>Blog</li>
+                    <li className='hover:text-orange-500'>Blog</li>
                 </Link>
                 <Link href="/">
-                    <li>About</li>
+                    <li className='hover:text-orange-500'>About</li>
                 </Link>
                 <Link href="/">
-                    <li>Contact</li>
+                    <li className='hover:text-orange-500'>Contact</li>
                 </Link>
             </ul>
             <div style={{color:`${textcolor}`}}  className=" sm:hidden z-10  " onClick={handleNav}>
