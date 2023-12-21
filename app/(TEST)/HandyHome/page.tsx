@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import NavBar from "../Components/Navbar";
+import Home from "@/app/sidebar/page";
 
 const Page = () => {
   return (
@@ -21,6 +22,7 @@ const Page = () => {
             nesciunt ipsum quo, voluptas mollitia illo temporibus aliquid quis
             cupiditate consequuntur? Facere, dolorem! Aut blanditiis quisquam
             repellendus.
+            <Home/>
           </div>
         </div>
       </div>

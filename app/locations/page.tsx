@@ -38,7 +38,7 @@ const data= Neighborhood();
           <p>{item.Cities_Abb}</p>
         </div>
       ))} */}
-<SliderNew/>
+{/* <SliderNew/> */}
     {/* {
       locations.map((index: { State: any }) => {
         return (
@@ -48,6 +48,8 @@ const data= Neighborhood();
         )
       })
     } */}
+
+    
       <div className="mx-20  flex items-center justify-between  ">
         <div className="1">
           <img

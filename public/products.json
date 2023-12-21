@@ -1,0 +1,13 @@
+{
+      "categories": [
+        {
+          "name": "Fruits",
+          "products": ["Apple", "Banana"]
+        },
+        {
+          "name": "Vegetables",
+          "products": ["Potato", "Onion"]
+        }
+      ]
+    }
+    

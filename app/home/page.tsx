@@ -5,8 +5,8 @@ import { MdKeyboardArrowRight, MdDoubleArrow } from "react-icons/md";
 const Hero = () => {
   const color = "#f76610";
   const color1 = "#c25210";
-  const text = `text-[${color}]`;
-  const btn = `bg-[${color}] hover:bg-[${color1}]`;
+  const text = `text-[#f76610]`;
+  const btn = `bg-[#f76610] hover:bg-[#c25210"]`;
   return (
     <div>
       {/* poster */}
